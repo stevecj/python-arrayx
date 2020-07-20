@@ -3,7 +3,7 @@ import array as pyarray
 import arrayx
 
 
-def test_has_all_pyarraay_typecodes_in_its_typecodes_seq():
+def test_has_all_pyarray_typecodes_in_its_typecodes_seq():
     py_typecode_set = set(pyarray.typecodes)
     x_typecode_set = set(arrayx.typecodes)
 
